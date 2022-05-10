@@ -40,7 +40,7 @@
             AdYas.Add("mert",25);
             AdYas.Add("özge", 24);
 
-            Console.WriteLine(AdYas.Keys[]);
+            Console.WriteLine(AdYas.Keys[0]);
 
             
 
