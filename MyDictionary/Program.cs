@@ -38,7 +38,7 @@
 
             MyDictionaryy<string,int> AdYas = new MyDictionaryy<string,int>();
             AdYas.Add("mert",25);
-            AdYas.Add("özge", 24);
+            
 
             Console.WriteLine(AdYas.Keys[0]);
 
@@ -74,7 +74,7 @@
 
             //Her yeni key ve value degerleri eklendikce bellegin heap bolgesinde key ve value alanlari acilacak ve elemanlar icerisine yerlestirilecektir.
             _key = new T[_key.Length+1];
-            _tempValue = new U[_value.Length+1];
+            _value = new U[_value.Length+1];
             //_tempKey ve _tempValue dizilerine _key ve _value dizilerini aktardım.
             for (int i = 0; i < _tempKey.Length; i++)
             {
